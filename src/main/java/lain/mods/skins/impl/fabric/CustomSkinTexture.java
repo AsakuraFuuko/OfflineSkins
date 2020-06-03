@@ -50,7 +50,7 @@ public class CustomSkinTexture extends AbstractTexture implements ISkinTexture
         {
             synchronized (this)
             {
-                TextureUtil.prepareImage(getGlId(), 0, image.getWidth(), image.getHeight());
+                TextureUtil.method_24959(getGlId(), 0, image.getWidth(), image.getHeight());
                 image.upload(0, 0, 0, false);
             }
         }
